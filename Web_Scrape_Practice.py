@@ -250,7 +250,7 @@ movie_ratings = pd.DataFrame({'movie': names,
 print(movie_ratings.info())
 movie_ratings.head(10)
 import os
-os.chdir(r'/Users/davidboyd/Desktop/Web_Scrape')
+os.chdir(r'####ENTER DIRECTORY#####')
 f = open("IMDB.csv", "w")
 f.truncate()
 f.close()
